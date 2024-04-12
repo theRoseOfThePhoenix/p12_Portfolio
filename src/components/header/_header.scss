@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  height: 540px;
+  background: url(../../assets/bySandrineRavaud.svg);
+  animation: fadeInCard 0.6s ease-in-out;
+
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  &_titreNoir {
+    background-color: #000;
+    color: #fde74c;
+    font-weight: 300;
+  }
+  &_left {
+    width: 800px;
+    transform: translate(230px, 50px);
+    &:hover {
+      opacity: 0.8;
+      scale: 1.05;
+      transition: all 1s ease-out;
+      border-radius: 100% 15%;
+    }
+  }
+}
+nav {
+  ul {
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 500px;
+    text-align: center;
+  }
+  li {
+    display: table-cell;
+    position: relative;
+    padding: 10px 0;
+    a {
+      color: #e55934;
+      text-decoration: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      display: inline-block;
+      padding: 15px 10px;
+      position: relative;
+
+      &:hover {
+        z-index: 1000;
+        position: relative;
+        color: #ffffff;
+      }
+      &:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: all 0.8s ease-out;
+        width: 0;
+      }
+      &:hover {
+        &:after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+h2 {
+  font-size: 80px;
+  color: #e55934;
+}
+#photo {
+  width: auto;
+  height: 20em;
+  border-radius: 50% 50%;
+  transform: translate(130px, 50px);
+  &:hover {
+    opacity: 0.8;
+    scale: 1.05;
+    transition: all 1s ease-out;
+    border-radius: 100% 15%;
+  }
+}
+.github-link {
+  width: 45px;
+}
+.linkedin-link {
+  width: 50px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

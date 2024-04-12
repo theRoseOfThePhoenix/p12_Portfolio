@@ -1,0 +1,40 @@
+.about {
+  width: 100%;
+  background-color: $darkorange-color;
+  animation: fadeInCard 0.6s ease-in-out;
+
+  &_container {
+    width: 1200px;
+    background-color: $dark-blue-color;
+    padding: 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &_titre {
+    color: $blue-color;
+    &:hover {
+      opacity: 0.8;
+      scale: 1.05;
+      transition: all 1s ease-out;
+      border-radius: 100% 15%;
+    }
+  }
+  &_img {
+    border-radius: 100px;
+    width: 200px;
+    height: auto;
+    &:hover {
+      opacity: 0.8;
+      scale: 1;
+      border-radius: 15% 100%;
+      transition: all 0.8s ease-out;
+    }
+  }
+  &_paragraphe {
+    font-size: larger;
+    color: $white-color;
+  }
+}
