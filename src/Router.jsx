@@ -7,9 +7,9 @@ import Projet from "./pages/projets/Projet.jsx";
 function Router() {
   return (
     <Routes>
-      <Route path="/projets/:projetId" element={<Projet />} />
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/p12_Portfolio/projets/:projetId" element={<Projet />} />
+      <Route path="/p12_Portfolio/" element={<Home />} />
+      <Route path="/p12_Portfolio/about" element={<About />} />
       {/* <Route path="/*" element={<Error />} />  */}
     </Routes>
   );

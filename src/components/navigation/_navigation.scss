@@ -1,0 +1,48 @@
+nav {
+  ul {
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 500px;
+    text-align: center;
+  }
+  li {
+    display: table-cell;
+    position: relative;
+    padding: 10px 0;
+    a {
+      color: #e55934;
+      text-decoration: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      display: inline-block;
+      padding: 15px 10px;
+      position: relative;
+
+      &:hover {
+        z-index: 1000;
+        position: relative;
+        color: #ffffff;
+      }
+      &:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: all 0.8s ease-out;
+        width: 0;
+      }
+      &:hover {
+        &:after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { Link } from "react-router-dom";
 import Photo from "../../assets/profil.webp";
+import { Link } from "react-router-dom";
 import Git from "../../assets/gitlogo.png";
 import Linkedin from "../../assets/linkedin.webp";
 import "./_header.scss";
