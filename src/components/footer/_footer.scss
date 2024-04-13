@@ -1,8 +1,8 @@
 .footer {
-  background-color: $dark-blue-color;
+  background-color: #27596e;
   display: flex;
+  flex-direction: column-reverse;
+  color: white;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  color: $white-color;
+  gap: 10px;
 }

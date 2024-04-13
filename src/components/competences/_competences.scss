@@ -1,0 +1,28 @@
+.competences {
+  background-color: #e55934;
+  border-radius: 25px 25px 0 0;
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde74c;
+  }
+  &_title {
+    color: dark-blue-color;
+  }
+  &_containersimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &_img {
+    width: 90px;
+    height: 90px;
+    &:hover {
+      opacity: 0.8;
+      scale: 1.1;
+      transition: all 0.1s ease-out;
+    }
+  }
+}

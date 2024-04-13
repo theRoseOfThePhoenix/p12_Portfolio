@@ -6,18 +6,19 @@ import Text from "../../components/text/Text.jsx";
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
 import Competences from "../../components/competences/Competences.jsx";
+import Navigation from "../../components/navigation/Navigation.jsx";
+import Footer from "../../components/footer/footer.jsx";
 
 function Projets() {
   const { projetId } = useParams();
-  console.log("Projet ID reçu:", projetId);
   const projet = ProjetsData.find((p) => p.projetId === projetId);
-  console.log("Projet trouvé:", projet);
   if (!projet) {
     return <div>Projet non trouvé</div>;
   }
 
   return (
     <div className="projet">
+      <Navigation />
       <h1 className="projet_titre"> Projet : {projetId}</h1>
       <section className="Projet_carrousel">
         carrousel<img src={projet.cover}></img>
@@ -30,6 +31,7 @@ function Projets() {
 
       <button>Repository Github</button>
       <button>Projet en ligne</button>
+      <Footer />
     </div>
   );
 }

@@ -2,8 +2,9 @@
 // @ts-nocheck
 import Loader from "../../components/loader/Loader.jsx";
 import { useEffect, useState } from "react";
-import Header from "../../components/header/Header.jsx";
 import Photo from "../../assets/sandrine.jpg";
+import Navigation from "../../components/navigation/Navigation.jsx";
+import Footer from "../../components/footer/footer.jsx";
 
 function About() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,8 +19,8 @@ function About() {
       {isLoading && <Loader />}
       {!isLoading && (
         <>
-          <Header />
           <main className="about">
+            <Navigation />
             <div className="about_container">
               <h2 className="about_titre">Qui suis-je ?</h2>
               <img
@@ -47,6 +48,7 @@ function About() {
               </p>
             </div>
           </main>
+          <Footer />
         </>
       )}
     </section>

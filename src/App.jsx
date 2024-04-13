@@ -5,7 +5,6 @@ import React from "react";
 import Home from "./pages/home/Home.jsx";
 import About from "./pages/about/About.jsx";
 import Projet from "./pages/projets/Projet.jsx";
-import Footer from "./components/footer/footer.jsx";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/about" element={<About />} />
         {/* <Route path="/*" element={<Error />} />  */}
       </Routes>
-      <Footer />
     </HashRouter>
   );
 }

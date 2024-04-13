@@ -1,10 +1,9 @@
 .about {
   width: 100%;
-  background-color: $darkorange-color;
+  background-color: $blue-color;
   animation: fadeInCard 0.6s ease-in-out;
 
   &_container {
-    width: 1200px;
     background-color: $dark-blue-color;
     padding: 0 50px 50px;
     display: flex;

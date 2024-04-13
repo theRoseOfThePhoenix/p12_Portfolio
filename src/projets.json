@@ -48,7 +48,15 @@
       "Utilisation du fichier Json pour toutes les données.",
       "Référencement naturel SEO."
     ],
-    "technologies": ["HTML5", "CSS3", "Javascript", "SASS", "Figma", "Github"],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "SASS",
+      "Figma",
+      "Github",
+      "React"
+    ],
     "repository": "https://github.com/theRoseOfThePhoenix/p8_Kaza",
     "page": "https://theroseofthephoenix.github.io/p8_Kaza/"
   },
@@ -105,5 +113,19 @@
     "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Github", "Figma"],
     "repository": "https://github.com/theRoseOfThePhoenix/Portfolio-architecte-sophie-bluel",
     "page": "https://theroseofthephoenix.github.io/Portfolio-architecte-sophie-bluel/"
+  },
+
+  {
+    "techno": [
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "Javascript",
+      "Github",
+      "Figma",
+      "Lighthouse",
+      "WAVE",
+      "React"
+    ]
   }
 ]
