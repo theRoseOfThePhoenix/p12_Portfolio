@@ -1,11 +1,13 @@
 .competences {
-  background-color: #e55934;
+  background-color: #5bc0eb;
   border-radius: 25px 25px 0 0;
+  animation: fadeInCard 0.6s ease-in-out;
   &_container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fde74c;
+    padding: 30px;
   }
   &_title {
     color: dark-blue-color;
@@ -15,14 +17,15 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 30px;
+    gap: 45px;
   }
   &_img {
-    width: 90px;
-    height: 90px;
+    height: 140px;
     &:hover {
       opacity: 0.8;
       scale: 1.1;
-      transition: all 0.1s ease-out;
+      transition: all 0.05s ease-out;
     }
   }
 }

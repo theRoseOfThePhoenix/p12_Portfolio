@@ -29,8 +29,8 @@ function Home() {
         <>
           <article></article>
           <Header />
-          <Gallery />
           <Competences competences={technos} />
+          <Gallery />
 
           <Footer />
         </>

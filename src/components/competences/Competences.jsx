@@ -29,7 +29,7 @@ function Competences({ competences }) {
   return (
     <section className="competences">
       <div className="competences_container">
-        <h3 className="competences_title">Compétences</h3>
+        <h3 className="competences_title">Mes Compétences</h3>
       </div>
       <div className="competences_containersimg">
         {competences.map((competence, index) => (

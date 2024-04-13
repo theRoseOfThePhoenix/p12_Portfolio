@@ -7,19 +7,19 @@ $black: #000;
 
 .containerGallery {
   background-color: $yellow-color;
-  height: 600px;
   &_titre {
     display: flex;
     justify-content: center;
+    padding: 30px;
   }
 }
 .galleryDesProjets {
   background-color: $blue-color;
-  height: 400px;
+  padding: 50px;
   border-radius: 25px 25px 0 0;
   flex-wrap: wrap;
   display: flex;
-  gap: 30px;
+  gap: 45px;
   justify-content: center;
   align-items: center;
   animation: fadeInCard 0.6s ease-in-out;
