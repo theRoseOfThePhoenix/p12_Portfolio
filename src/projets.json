@@ -2,7 +2,7 @@
   {
     "projetId": "ohmyfood",
     "titre": "OhMyFood",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "cover": "./src/assets/ohmyfood/omf.png",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
@@ -16,7 +16,7 @@
       "En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !",
       "Développer le site en mobile, tablette et desktop en s'appuyant rigoureusement sur les informations déterminées dans le brief créatif !"
     ],
-    "infos-projets": [
+    "infos": [
       "Intégration Web, HTML - CSS - SASS.",
       "Dynamisme / Animation en CSS - SASS.",
       "Référencement naturel SEO."
@@ -28,7 +28,7 @@
   {
     "projetId": "kasa",
     "titre": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "cover": "./src/assets/kaza/kaza.png",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
@@ -42,7 +42,7 @@
       "Le recrutement de la personne en charge du back-end n'est pas terminé et va prendre plus de temps que prévu. Du coup, il va falloir que tu fasses sans pour le moment. Je t'ai extrait les 20 dernières annonces de logements dans ce fichier JSON pour que tu puisses construire le Front qui correspond.",
       "Développer avec Create React App ou Vite et utiliser SASS."
     ],
-    "infos-projets": [
+    "infos": [
       "Intégration Web, React avec Create React App.",
       "Dynamisme / Animation en React - SASS.",
       "Utilisation du fichier Json pour toutes les données.",
@@ -63,7 +63,7 @@
   {
     "projetId": "nina-carducci",
     "titre": "Nina Carducci",
-    "cover": "../src/assets/nina/Nina.jpg",
+    "cover": "./src/assets/nina/Nina.jpg",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
@@ -90,7 +90,7 @@
   {
     "projetId": "sophie-bluel",
     "titre": "Sophie Bluel",
-    "cover": "../src/assets/nina/Nina.jpg",
+    "cover": "./src/assets/sophie/sophie-bluel.png",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",

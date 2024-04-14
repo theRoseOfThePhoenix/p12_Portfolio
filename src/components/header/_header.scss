@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: #5bc0eb;
   padding: 50px;
   &_logo img {
     width: 100px;
@@ -56,7 +56,7 @@ nav {
     position: relative;
     padding: 10px 0;
     a {
-      color: #e55934;
+      color: #9b2f12;
       text-decoration: none;
       cursor: pointer;
       text-transform: uppercase;
@@ -94,13 +94,13 @@ nav {
 
 h2 {
   font-size: 80px;
-  color: #e55934;
+  color: #fa7921;
 }
 #photo {
   width: auto;
   height: 20em;
   border-radius: 50% 50%;
-  transform: translate(200px);
+  transform: translate(200px, 50px);
   &:hover {
     opacity: 0.8;
     scale: 1.05;

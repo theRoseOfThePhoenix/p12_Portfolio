@@ -13,7 +13,7 @@ import waveToolLogo from "../../assets/logos/wave.png";
 import githublogo from "../../assets/logos/gitlogo.png";
 import "./_competences.scss";
 
-function Competences({ competences }) {
+function Competences({ competences, titreTech }) {
   const logos = {
     HTML5: html5Logo,
     CSS3: css3Logo,
@@ -29,7 +29,7 @@ function Competences({ competences }) {
   return (
     <section className="competences">
       <div className="competences_container">
-        <h3 className="competences_title">Mes Compétences</h3>
+        <h3 className="competences_title">{titreTech}</h3>
       </div>
       <div className="competences_containersimg">
         {competences.map((competence, index) => (
@@ -44,8 +44,10 @@ function Competences({ competences }) {
     </section>
   );
 }
+
 Competences.propTypes = {
   competences: PropTypes.arrayOf(PropTypes.string).isRequired,
+  titreTech: PropTypes.string.isRequired,
 };
 //competencesdoit être une chaîne de caractères et est obligatoire
 export default Competences;

@@ -1,22 +1,83 @@
 .projet {
-  background-color: $blue-color;
+  background-color: #27596e;
   animation: fadeInCard 0.6s ease-in-out;
+  &_container {
+    width: 1000px;
+  }
+  &_carrousel {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_carrousel img {
+    width: 100%;
+  }
+  &_titre {
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  p {
+    padding: 20px;
+  }
   &_titre,
   p,
   li {
     color: white;
   }
   &_paragraphe {
-    padding: 10px;
+    padding: 10px 40px;
   }
   &_sou-titre {
+    font-size: x-large;
     color: white;
     display: flex;
     justify-content: center;
+    padding: 30px;
   }
 }
 li {
   list-style-type: circle;
+}
+.bouton {
+  background-color: #fde74c;
   display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  &_style {
+    background-color: #fde74c;
+    color: #9b2f12;
+    display: inline-block;
+    padding: 15px 10px 15px;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 100px;
+    &:hover {
+      background-color: #fde74c;
+      color: #446c82;
+      z-index: 1000;
+      position: relative;
+    }
+    &:after {
+      bottom: 15px;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: #5bc0eb;
+      transition: all 0.9s ease-out;
+      width: 0;
+    }
+    &:hover {
+      &:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
 }

@@ -29,9 +29,8 @@ function Home() {
         <>
           <article></article>
           <Header />
-          <Competences competences={technos} />
+          <Competences titreTech="Mes compétences" competences={technos} />
           <Gallery />
-
           <Footer />
         </>
       )}

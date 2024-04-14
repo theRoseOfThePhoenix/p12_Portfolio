@@ -8,7 +8,9 @@ function Navigation() {
   return (
     <div className="navigation">
       <span className="navigation_logo">
-        <img src={Logo}></img>
+        <Link to="/">
+          <img src={Logo} alt="logo de Sandrine Ravaud animé"></img>
+        </Link>
       </span>
       <nav className="header_nav">
         <ul>

@@ -25,7 +25,7 @@ $black: #000;
   animation: fadeInCard 0.6s ease-in-out;
 
   &_card {
-    background: linear-gradient(180deg, $white-color 0%, $orange-color 100%);
+    background: linear-gradient(180deg, $white-color 0%, #891f08 100%);
     border-radius: 10px;
     width: 300px;
     height: 300px;
@@ -54,17 +54,18 @@ $black: #000;
     }
     &-front,
     &-back {
+      font-weight: 800;
       position: absolute;
       height: 100%;
       width: 100%;
-      color: $darkorange-color;
+      color: #4f4240;
       text-align: center;
       border-radius: 5px;
       backface-visibility: hidden;
     }
     &-back {
       background: $blue-color;
-      color: $white-color;
+      color: #4f4240;
       transform: rotateY(180deg);
       line-height: 1cm;
       display: flex;
