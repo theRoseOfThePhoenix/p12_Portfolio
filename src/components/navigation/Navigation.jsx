@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Git from "../../assets/logos/gitlogo.png";
 import Linkedin from "../../assets/logos/linkedin.webp";
 import Logo from "../../assets/srlogo.gif";
+import "./_navigation.scss";
 
 function Navigation() {
   return (

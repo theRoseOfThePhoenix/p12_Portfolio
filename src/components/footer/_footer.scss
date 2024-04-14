@@ -5,5 +5,20 @@
   flex-direction: column-reverse;
   color: white;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 520px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 13px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+  }
+  &_liste {
+    list-style-type: none;
+  }
 }

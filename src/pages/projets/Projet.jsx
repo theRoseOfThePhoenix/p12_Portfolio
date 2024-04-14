@@ -28,8 +28,10 @@ function Projets() {
         </div>
       </section>
       <Text title="Scenario" content={projet.scenario} />
-      <Text title="Objectifs" content={projet.objectifs} />
-      <Text title="Informations sur le projet" content={projet.infos} />
+      <div className="projet_listes">
+        <Text title="Objectifs" content={projet.objectifs} />
+        <Text title="Informations sur le projet" content={projet.infos} />
+      </div>
       <Competences
         titreTech="Les technos utilisées"
         competences={projet.technologies}

@@ -11,6 +11,7 @@ import figmaLogo from "../../assets/logos/figma.png";
 import lighthouseLogo from "../../assets/logos/lighthouse.png";
 import waveToolLogo from "../../assets/logos/wave.png";
 import githublogo from "../../assets/logos/gitlogo.png";
+import viteLogo from "../../assets/logos/Vite.png";
 import "./_competences.scss";
 
 function Competences({ competences, titreTech }) {
@@ -24,6 +25,7 @@ function Competences({ competences, titreTech }) {
     Figma: figmaLogo,
     Lighthouse: lighthouseLogo,
     WAVE: waveToolLogo,
+    Vite: viteLogo,
   };
 
   return (

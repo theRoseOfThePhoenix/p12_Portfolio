@@ -2,23 +2,41 @@ nav {
   ul {
     padding: 0;
     list-style: none;
-    display: table;
-    width: 500px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    gap: 40px;
+    @media screen and (max-width: 768px) {
+      gap: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 14px;
+      gap: 10px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 14px;
+      gap: 8px;
+    }
+    @media screen and (max-width: 370px) {
+      font-size: 13px;
+      gap: 6px;
+    }
   }
   li {
-    display: table-cell;
     position: relative;
     padding: 10px 0;
     a {
-      color: #ffffff;
+      color: #9b2f12;
       text-decoration: none;
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 0.15em;
-      display: inline-block;
+      display: flex;
       padding: 15px 10px;
       position: relative;
+      @media screen and (max-width: 600px) {
+        padding: 0 5px;
+      }
 
       &:hover {
         z-index: 1000;

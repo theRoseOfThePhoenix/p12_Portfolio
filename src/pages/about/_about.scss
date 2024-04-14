@@ -5,15 +5,24 @@
 
   &_container {
     background-color: $dark-blue-color;
-    padding: 0 50px 50px;
+    padding: 20px 50px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    @media screen and (max-width: 500px) {
+      gap: 25px;
+    }
   }
 
   &_titre {
     color: $blue-color;
+    @media screen and (max-width: 500px) {
+      font-size: 40px;
+    }
+    @media screen and (max-width: 370px) {
+      font-size: 32px;
+    }
     &:hover {
       opacity: 0.8;
       scale: 1.05;
@@ -35,5 +44,11 @@
   &_paragraphe {
     font-size: larger;
     color: $white-color;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 14px;
+    }
   }
 }

@@ -18,10 +18,22 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 30px;
-    gap: 45px;
+    gap: 60px;
   }
   &_img {
     height: 140px;
+    @media screen and (max-width: 1024px) {
+      height: 120px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 100px;
+    }
+    @media screen and (max-width: 400px) {
+      height: 80px;
+    }
+    @media screen and (max-width: 350px) {
+      height: 70px;
+    }
     &:hover {
       opacity: 0.8;
       scale: 1.1;
