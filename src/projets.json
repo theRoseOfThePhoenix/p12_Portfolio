@@ -2,7 +2,7 @@
   {
     "projetId": "ohmyfood",
     "titre": "OhMyFood",
-    "cover": "/vite-project/src/assets/ohmyfood/omf.png",
+    "cover": "/p12_Portfolio/tree/main/src/assets/ohmyfood/omf.png",
     "pictures": [],
     "scenario": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s'agit d'une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.",
     "objectifs": [
@@ -22,7 +22,7 @@
   {
     "projetId": "kasa",
     "titre": "Kasa",
-    "cover": "/vite-project./src/assets/kaza/kaza.png",
+    "cover": "/p12_Portfolio/tree/main/src/assets/kaza/kaza.png",
     "pictures": [],
     "scenario": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d'appartements entre particuliers en France. L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance ! Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !",
     "objectifs": [
@@ -51,7 +51,7 @@
   {
     "projetId": "nina-carducci",
     "titre": "Nina Carducci",
-    "cover": "/vite-project/src/assets/nina/Nina.jpg",
+    "cover": "/p12_Portfolio/tree/main/src/assets/nina/Nina.jpg",
     "pictures": [],
     "scenario": "Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. Après l'avoir contacté en proposant vos services elle à acceptée votre offre. Vous êtes donc maintenant prêt à débuter ce projet pour votre nouveau client. À vous de jouer ! ",
     "objectifs": [
@@ -72,7 +72,7 @@
   {
     "projetId": "sophie-bluel",
     "titre": "Sophie Bluel",
-    "cover": "/vite-project/src/assets/sophie/sophie-bluel.png",
+    "cover": "/p12_Portfolio/tree/main/src/assets/sophie/sophie-bluel.png",
     "pictures": [],
     "scenario": "Vous travaillez en tant que développeur front-end pour l'agence ArchiWebos qui compte 50 collaborateurs. Après avoir terminé votre dernier projet un peu plus tôt que prévu, vous êtes envoyé en tant que développeur front-end dans une équipe travaillant sur la conception du site portfolio d'un architecte d'intérieur.",
     "objectifs": [
