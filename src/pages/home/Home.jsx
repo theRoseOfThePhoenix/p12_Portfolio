@@ -5,7 +5,6 @@ import ProjetsData from "../../projets.json";
 import Gallery from "../../components/gallery/Gallery.jsx";
 import Header from "../../components/header/Header.jsx";
 import Competences from "../../components/competences/Competences.jsx";
-import Footer from "../../components/footer/footer.jsx";
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +30,6 @@ function Home() {
           <Header />
           <Competences titreTech="Mes compétences" competences={technos} />
           <Gallery />
-          <Footer />
         </>
       )}
     </section>

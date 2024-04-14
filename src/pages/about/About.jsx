@@ -4,7 +4,6 @@ import Loader from "../../components/loader/Loader.jsx";
 import { useEffect, useState } from "react";
 import Photo from "../../assets/sandrine.jpg";
 import Navigation from "../../components/navigation/Navigation.jsx";
-import Footer from "../../components/footer/footer.jsx";
 
 function About() {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +47,6 @@ function About() {
               </p>
             </div>
           </main>
-          <Footer />
         </>
       )}
     </section>

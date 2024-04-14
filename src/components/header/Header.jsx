@@ -1,9 +1,7 @@
 // @ts-nocheck
 import Photo from "../../assets/profil.webp";
 import Navigation from "../navigation/Navigation";
-// import { Link } from "react-router-dom";
-// import Git from "../../assets/gitlogo.png";
-// import Linkedin from "../../assets/linkedin.webp";
+
 import "./_header.scss";
 
 function Header() {
@@ -16,7 +14,7 @@ function Header() {
             PORTFOLIO <br />
             <span className="header_titreNoir">SANDRINE RAVAUD</span>
           </h1>
-          <h2>Développeur Frontend & Illustratrice</h2>
+          <h2>Développeur Frontend</h2>
         </div>
         <div className="header_rigth">
           <img

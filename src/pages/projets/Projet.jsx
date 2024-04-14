@@ -8,7 +8,6 @@ import { useParams } from "react-router-dom";
 import Competences from "../../components/competences/Competences.jsx";
 import Navigation from "../../components/navigation/Navigation.jsx";
 import Bouton from "../../components/bouton/Bouton.jsx";
-import Footer from "../../components/footer/footer.jsx";
 
 function Projets() {
   const { projetId } = useParams();
@@ -40,7 +39,6 @@ function Projets() {
         <Bouton texte="Repository Github" url={projet.repository} />
         <Bouton texte="Projet en ligne" url={projet.page} />
       </div>
-      <Footer />
     </div>
   );
 }
