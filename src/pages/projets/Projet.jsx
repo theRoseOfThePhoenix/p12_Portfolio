@@ -15,7 +15,6 @@ function Projets() {
   if (!projet) {
     return <div>Projet non trouvé</div>;
   }
-
   return (
     <div className="projet">
       <Navigation />
