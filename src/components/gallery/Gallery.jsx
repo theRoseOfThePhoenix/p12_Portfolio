@@ -2,7 +2,7 @@
 import Card from "../card/Card.jsx";
 import "../card/Card.jsx";
 import Nina from "../../assets/nina/Nina.jpg";
-import Kaza from "../../assets/kaza/kaza.png";
+import Kasa from "../../assets/kaza/kaza.png";
 import OMF from "../../assets/ohmyfood/omf.png";
 import Sophie from "../../assets/sophie/sophie-bluel.png";
 
@@ -21,7 +21,7 @@ function Gallery() {
         />
         <Card
           projetId="kasa"
-          cover={Kaza}
+          cover={Kasa}
           title="Kaza"
           description="Démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !). Et ce avec un code de qualité !"
         />
