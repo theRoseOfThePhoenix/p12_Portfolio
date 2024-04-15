@@ -22,7 +22,7 @@ function Gallery() {
         <Card
           projetId="kasa"
           cover={Kasa}
-          title="Kaza"
+          title="Kasgita"
           description="Démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !). Et ce avec un code de qualité !"
         />
         <Card
